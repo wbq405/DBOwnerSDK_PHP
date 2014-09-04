@@ -1,7 +1,7 @@
 <?php
-$config['client_id']      = '80022001';
-$config['client_secret']  = 'cd173a2f0bc3b9cd14bbff71e0d5f3a7';
-$config['redirect_uri']   = 'http://user.dbowner.com/callback.php';
-$config['authorizeURL']   = 'http://auth.dbowner.com/oauth/authorize';
-$config['accessTokenURL'] = 'http://auth.dbowner.com/oauth/token2';
-$config['host']           = 'http://auth.dbowner.com';
+$config['client_id']      = 'xxxxxx'; //申请的AppID值
+$config['client_secret']  = 'xxxxxx'; //申请的AppSecret值
+$config['redirect_uri']   = 'xxxxxx'; //回调地址
+$config['authorizeURL']   = 'https://auth.dbowner.com/oauth/authorize';
+$config['accessTokenURL'] = 'https://auth.dbowner.com/oauth/token2';
+$config['host']           = 'https://auth.dbowner.com';
